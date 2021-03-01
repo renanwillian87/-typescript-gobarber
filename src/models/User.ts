@@ -12,7 +12,7 @@ class User {
     email: String;
 
     @Column()
-    password: String;
+    password?: String;
     
     @CreateDateColumn()
     created_at: Date;

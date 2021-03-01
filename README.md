@@ -27,3 +27,6 @@ typeorm: https://typeorm.io/#/
 
 **To Revert**
 > $ yarn typeorm migration:revert
+
+### crypt
+> $ yarn add bcryptjs
