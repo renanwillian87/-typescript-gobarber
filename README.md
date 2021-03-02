@@ -1,6 +1,9 @@
 ## Docs
 typeorm: https://typeorm.io/#/
 
+## links
+http://www.md5.cz/
+
 ## Dependencies
 
 ### server
@@ -30,3 +33,7 @@ typeorm: https://typeorm.io/#/
 
 ### crypt
 > $ yarn add bcryptjs
+
+### jwt
+> $ yarn add jsonwebtoken
+> $ yarn add @types/jsonwebtoken
