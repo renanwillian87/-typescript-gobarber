@@ -41,3 +41,7 @@ http://www.md5.cz/
 ### multer (file upload backend)
 > $ yarn add multer
 > $ yarn add @types/multer
+
+
+### handling exception (errors)
+> $ yarn add express-async-errors
