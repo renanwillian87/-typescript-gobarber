@@ -37,3 +37,7 @@ http://www.md5.cz/
 ### jwt
 > $ yarn add jsonwebtoken
 > $ yarn add @types/jsonwebtoken
+
+### multer (file upload backend)
+> $ yarn add multer
+> $ yarn add @types/multer

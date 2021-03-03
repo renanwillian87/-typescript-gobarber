@@ -14,6 +14,9 @@ class User {
     @Column()
     password?: String;
     
+    @Column()
+    avatar: String;
+
     @CreateDateColumn()
     created_at: Date;
 
