@@ -45,3 +45,14 @@ http://www.md5.cz/
 
 ### handling exception (errors)
 > $ yarn add express-async-errors
+
+
+### cors
+> $ yarn add cors
+> $ yarn add @types/cors
+
+### using tsconfig.json path on development environment
+> $ yarn add tsconfig-paths -D
+
+## dependency injection
+> $ yarn add tsyringe
