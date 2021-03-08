@@ -24,10 +24,8 @@ http://www.md5.cz/
 **To better experience** create inside package.json > {"script": {"typeorm": "ts-node-dev ./node_modules/typeorm/cli.js"}}, with this setup use command below.
 **To Create file**
 > $ yarn typeorm migration:create -n [MigrationName]
-
 **To Run**
 > $ yarn typeorm migration:run
-
 **To Revert**
 > $ yarn typeorm migration:revert
 
@@ -56,3 +54,12 @@ http://www.md5.cz/
 
 ## dependency injection
 > $ yarn add tsyringe
+
+## jest tests
+> $ yarn add jest -D
+> $ yarn add @types/jest -D
+> $ yarn add ts-jest -D
+
+### jest - command
+**to init**
+> $ yarn jest --init
