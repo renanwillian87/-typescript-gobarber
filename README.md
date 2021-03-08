@@ -1,10 +1,10 @@
-## Docs
+# docs
 typeorm: https://typeorm.io/#/
 
-## links
+# links
 http://www.md5.cz/
 
-## Dependencies
+# dependencies
 
 ### server
 > $ yarn add express
@@ -65,10 +65,9 @@ http://www.md5.cz/
 > $ yarn jest --init
 
 
+# requisitos
 
-## requisitos
-
-# recuperação de senha
+## recuperação de senha
 
 **RF**
 - o usuário deve poder recuperar sua senha informando o seu e-mail;
@@ -84,7 +83,7 @@ http://www.md5.cz/
 - o link enviado por email para resetar senha, deve expirar em 2h;
 - o usuário precisa informar a nova senha ao resetar sua senha;
 
-# atualizacao do perfil
+## atualizacao do perfil
 
 **RF**
 - o usuário deve poder atualizar seu nome, email e senha:
@@ -94,7 +93,7 @@ http://www.md5.cz/
 - para atualizar sua senha, o usuário deve informar a senha antiga;
 - para atualizar sua senha, o usuário precisa confirmar a nova senha;
 
-# painel do prestador
+## painel do prestador
 
 **RF**
 - o usuário deve poder listar seus agendamentos de um dia específico;
@@ -109,7 +108,7 @@ http://www.md5.cz/
 **RN**
 - a notificação deve ter um status de lida ou não-lida para que o prestador possa controlar;
 
-# agendamento de serviço
+## agendamento de serviço
 
 **RF**
 - o usuário deve poder listar todos os prestadortes de serviço cadastrado;
