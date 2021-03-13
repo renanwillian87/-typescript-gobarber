@@ -1,5 +1,4 @@
 import IHashProvider from '../models/IHashProvider';
-
 class FakeHashProvider implements IHashProvider {
     generateHash(payload: string): Promise<string> {
         return Promise.resolve(payload);
@@ -9,5 +8,4 @@ class FakeHashProvider implements IHashProvider {
         return Promise.resolve(payload === hashed);
     }
 }
-
 export default FakeHashProvider;
