@@ -6,7 +6,6 @@ import {
     UpdateDateColumn,
     Generated
 } from 'typeorm';
-
 @Entity('user_tokens')
 class UserToken {
     @PrimaryGeneratedColumn('uuid')
@@ -25,5 +24,4 @@ class UserToken {
     @UpdateDateColumn()
     updated_at: Date;
 }
-
 export default UserToken;

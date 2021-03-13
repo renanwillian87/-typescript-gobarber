@@ -1,11 +1,8 @@
 import { uuid } from 'uuidv4';
 import { isEqual } from 'date-fns';
-
 import IAppointmentsRepository from '@modules/appointments/repositories/IAppointmentsRepository';
 import ICreateAppointmentDTO from '@modules/appointments/dtos/ICreateAppointmentDTO';
-
 import Appointment from '../../infra/typeorm/entities/Appointment';
-
 class AppointmentsRepository implements IAppointmentsRepository{
     private appointments: Appointment[] = [];
 
@@ -13,7 +10,6 @@ class AppointmentsRepository implements IAppointmentsRepository{
         const findAppointment = this.appointments.find(
             appointment => isEqual(appointment.date, date)
         );
-
         return findAppointment;
     }
 
@@ -22,14 +18,9 @@ class AppointmentsRepository implements IAppointmentsRepository{
         date
     }: ICreateAppointmentDTO) : Promise<Appointment> {
         const appointment = new Appointment();
-
         Object.assign(appointment, { id: uuid(), date, provider_id });
-
         this.appointments.push(appointment);
-
         return appointment;
-
     }
 }
-
 export default AppointmentsRepository;

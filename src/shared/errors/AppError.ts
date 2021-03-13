@@ -8,5 +8,4 @@ class Error {
         this.statusCode = statusCode;
     }
 }
-
 export default Error;
