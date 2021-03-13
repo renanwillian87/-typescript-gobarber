@@ -125,3 +125,17 @@ http://www.md5.cz/
 - o usuário não pode agendar em um horário já ocupado;
 - o usuário não pode agendar em um horário que já passou;
 - o usuário não pode agendar serviços consigo mesmo;
+
+
+## provider mail: ethereal mail
+link: https://ethereal.email/
+
+### server
+> $ yarn add nodemailer
+> $ yarn add @types/nodemailer
+
+## provider mail:  template
+link: https://handlebarsjs.com/
+
+### server
+> $ yarn add handlebars

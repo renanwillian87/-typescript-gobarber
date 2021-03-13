@@ -5,6 +5,8 @@ import FakeHashProvider from '../providers/HashProvider/fakes/FakeHashProvider';
 import AuthenticateUserService from './AuthenticateUserService';
 import CreateUserService from './CreateUserService';
 
+// TODO adicionar teste do usuario
+
 describe('AuthenticateUser', () => {
     it('should be able to authenticate', async () => {
         const fakeUsersRepository = new FakeUsersRepository();
@@ -43,7 +45,7 @@ describe('AuthenticateUser', () => {
             fakeHashProvider
         );
 
-        expect(authenticateUser.execute({
+        await expect(authenticateUser.execute({
             email: 'johndoe@example.com',
             password: '123456'
         })).rejects.toBeInstanceOf(AppError);
@@ -68,7 +70,7 @@ describe('AuthenticateUser', () => {
             password: '123456'
         });
 
-        expect(authenticateUser.execute({
+        await expect(authenticateUser.execute({
             email: 'johndoe@example.com',
             password: 'wrong-password'
         })).rejects.toBeInstanceOf(AppError);
