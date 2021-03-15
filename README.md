@@ -82,6 +82,11 @@ http://www.md5.cz/
 > $ yarn add mongodb
 > $ yarn add @types/mongodb -D
 
+## celebrate (middleware function that wraps the joi validation library)
+
+> $ yarn add celebrate
+> $ yarn add @types/hapi__joi -D
+
 
 # requisitos
 
