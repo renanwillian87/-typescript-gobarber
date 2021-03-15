@@ -1,26 +1,33 @@
 # docs
+
 typeorm: https://typeorm.io/#/
 
 # links
+
 http://www.md5.cz/
 
 # dependencies
 
-### server
+## server
+
 > $ yarn add express
 > $ yarn add @types/express -D
 
-### uuid
+## uuid
+
 > $ yarn add uuidv4
 
-### typeorm
+## typeorm
+
 > $ yarn add typeorm
 > $ yarn add reflect-metadata
 
 ### typeorm - db - postgres
+
 > $ yarn add typeorm pg
 
 ### typeorm - migration
+
 **To better experience** create inside package.json > {"script": {"typeorm": "ts-node-dev ./node_modules/typeorm/cli.js"}}, with this setup use command below.
 **To Create file**
 > $ yarn typeorm migration:create -n [MigrationName]
@@ -29,40 +36,51 @@ http://www.md5.cz/
 **To Revert**
 > $ yarn typeorm migration:revert
 
-### crypt
+## crypt
+
 > $ yarn add bcryptjs
 
-### jwt
+## jwt
+
 > $ yarn add jsonwebtoken
 > $ yarn add @types/jsonwebtoken
 
-### multer (file upload backend)
+## multer (file upload backend)
+
 > $ yarn add multer
 > $ yarn add @types/multer
 
+## handling exception (errors)
 
-### handling exception (errors)
 > $ yarn add express-async-errors
 
+## cors install
 
-### cors
 > $ yarn add cors
 > $ yarn add @types/cors
 
-### using tsconfig.json path on development environment
+## using tsconfig.json path on development environment
+
 > $ yarn add tsconfig-paths -D
 
-## dependency injection
+## dependency injection install
+
 > $ yarn add tsyringe
 
-## jest tests
+## jest tests install
+
 > $ yarn add jest -D
 > $ yarn add @types/jest -D
 > $ yarn add ts-jest -D
 
-### jest - command
-**to init**
+### jest - command to init
+
 > $ yarn jest --init
+
+## mongodb
+
+> $ yarn add mongodb
+> $ yarn add @types/mongodb -D
 
 
 # requisitos

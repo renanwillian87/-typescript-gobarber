@@ -59,7 +59,7 @@ class AppointmentsRepository implements IAppointmentsRepository{
         user_id,
         date
     }: ICreateAppointmentDTO) : Promise<Appointment> {
-        const appointment = await this.ormRepository.create({
+        const appointment = this.ormRepository.create({
             provider_id,
             user_id,
             date

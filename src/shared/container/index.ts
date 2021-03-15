@@ -20,3 +20,9 @@ container.registerSingleton<IUserTokensRepository>(
     'UserTokensRepository', 
     UserTokensRepository
 );
+import INotificationsRepository from '@modules/notifications/repositories/INotificationsRepository';
+import NotificationsRepository from '@modules/notifications/infra/typeorm/repositories/NotificationsRepository';
+container.registerSingleton<INotificationsRepository>(
+    'NotificationsRepository', 
+    NotificationsRepository
+);
