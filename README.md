@@ -87,6 +87,9 @@ http://www.md5.cz/
 > $ yarn add celebrate
 > $ yarn add @types/hapi__joi -D
 
+## dotenv (variable environment)
+
+> $ yarn add dotenv
 
 # requisitos
 

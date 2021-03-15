@@ -7,3 +7,7 @@ temp/
 
 tmp/*
 !tmp/.gitkeep
+
+#in real world this files bellow not going to git repository
+##.env
+##ormconfig.json
