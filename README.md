@@ -95,6 +95,10 @@ http://www.md5.cz/
 
 > $ yarn add class-transformer
 
+## aws sdk
+
+> $ yarn add aws-sdk
+
 # requisitos
 
 ## recuperação de senha
