@@ -5,9 +5,7 @@ import ensureAuthenticated from '../middlewares/ensureAuthenticated';
 const profileRouter = Router();
 const profileController = new ProfileController();
 profileRouter.use(ensureAuthenticated);
-profileRouter.put('/', profileController.update);
-profileRouter.get(
-    '/',  
+profileRouter.put('/', 
     celebrate({
         [Segments.BODY]: {
             name: Joi.string().required(),
@@ -17,6 +15,7 @@ profileRouter.get(
             password_confirmation: Joi.string(),
         }
     }),
-    profileController.show);
+    profileController.update);
+profileRouter.get('/', profileController.show);
 
 export default profileRouter;

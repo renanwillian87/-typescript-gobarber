@@ -91,6 +91,10 @@ http://www.md5.cz/
 
 > $ yarn add dotenv
 
+## class-transformer (to transformer objects)
+
+> $ yarn add class-transformer
+
 # requisitos
 
 ## recuperação de senha
