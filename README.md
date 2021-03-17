@@ -99,6 +99,17 @@ http://www.md5.cz/
 
 > $ yarn add aws-sdk
 
+## redis
+
+> $ yarn add ioredis
+> $ yarn add @types/ioredis -D
+
+# docker
+
+## docker redis
+
+> $ docker run --name redis -p 6379:6379 -d -t redis:alpine
+
 # requisitos
 
 ## recuperação de senha
