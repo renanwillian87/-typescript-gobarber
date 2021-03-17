@@ -104,6 +104,12 @@ http://www.md5.cz/
 > $ yarn add ioredis
 > $ yarn add @types/ioredis -D
 
+## rate-limiter-flexible
+
+> $ yarn add rate-limiter-flexible
+> $ yarn add redis
+> $ yarn add @types/redis -D
+
 # docker
 
 ## docker redis
